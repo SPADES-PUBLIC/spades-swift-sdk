@@ -20,3 +20,5 @@ To integrate the SDK into your Swift-based project:
 1. Copy all files under `spadesLabSampleApp/SPADESSDK`.
 
 2. Add the import lines in `spadesLabSampleApp/SupportingFiles/spadesLabSampleApp-Bridging-Header.h` to your own app's Objective-C bridging header file.
+
+3. Add the required dependencies/pods in `Podfile` to your project's Podfile'. If your project does not use CocoaPods, please look for the pods' Frameworks (through Carthage) equivalents.
