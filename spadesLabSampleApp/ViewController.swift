@@ -73,12 +73,12 @@ class ViewController: UIViewController {
         // Set the URL of the target SPADES API
         SPADESManager.SPADES_URL = "" // FILL IN!
         self.awsInfo = SPADESAWSInfo()
-        self.awsInfo.accessKeyId = ""
-        self.awsInfo.secretAccessKey = ""
+        self.awsInfo.accessKeyId = "" // FILL IN!
+        self.awsInfo.secretAccessKey = "" // FILL IN!
         self.awsInfo.spadesEnvironment = "DEVELOPMENT" // Or "PRODUCTION"
-        self.awsInfo.s3BucketName = ""
-        self.awsInfo.sqsQueueName = ""
-        self.awsInfo.regionType = AWSRegionType.USEast1
+        self.awsInfo.s3BucketName = "" // FILL IN!
+        self.awsInfo.sqsQueueName = "" // FILL IN!
+        self.awsInfo.regionType = AWSRegionType.USEast1 // FILL IN!
     }
 
     // MARK: Actions
