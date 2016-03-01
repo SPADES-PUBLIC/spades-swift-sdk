@@ -7,16 +7,16 @@ This is a sample application which includes the SDK. This iOS application is run
 
 1.  Download the repository and import into XCODE (v7.1+).
 
-2.  In terminal, go to the root directory of the project and run "pod install" to install the required dependencies.
+2.  In terminal, go to the root directory of the project and run `pod install` to install the required dependencies.
 
-3.  Open "spadesLabSampleApp/ViewController.swift" and navigate to the "viewDidLoad()" function. Look for "FILL IN!" comments and add the required information. The SPADES API usage examples are in ViewController.swift's "TestButtonClicked" function.
+3.  Open `spadesLabSampleApp/ViewController.swift` and navigate to the `viewDidLoad()` function. Look for `FILL IN!` comments and add the required information. The SPADES API usage examples are in ViewController.swift's `TestButtonClicked()` function.
 
-4.  Build and run the application. Once the app is running, press "Click Me" to go through all of the sample usages of the API. Also check console outputs for return values and errors.
+4.  Build and run the application. Once the app is running, press `Click Me` to go through all of the sample usages of the API. Also check console outputs for return values and errors.
 
 Integration
 -----------
 To integrate the SDK into your Swift-based project:
 
-1. Copy all files under "spadesLabSampleApp/SPADESSDK".
+1. Copy all files under `spadesLabSampleApp/SPADESSDK`.
 
-2. Add the import lines in "spadesLabSampleApp/SupportingFiles/spadesLabSampleApp-Bridging-Header.h" to your own app's Objective-C bridging header file.
+2. Add the import lines in `spadesLabSampleApp/SupportingFiles/spadesLabSampleApp-Bridging-Header.h` to your own app's Objective-C bridging header file.
