@@ -35,6 +35,13 @@ enum SPADESMetadataType:String {
     case SENSOR_SERIAL_NUMBER = "sensorSerialNumber"
 }
 
+// SPADES server environment type
+enum SPADESEnvironmentType:String {
+    case DEVELOPMENT = "development"
+    case PRODUCTION = "production"
+    case UNKNOWN = "unknown"
+}
+
 struct SPADESMobileUser {
     var username:String
     var password:String
@@ -385,8 +392,8 @@ class SPADESManager {
         AWSServiceManager.defaultServiceManager().defaultServiceConfiguration = config
         
         // Upload the file to S3 and send a message to SQS to process the file
-        let s3Prefix = "\(awsInfo.spadesEnvironment)/UPLOADS/\(studyId)"
-        let fileKey = "\(s3Prefix)\(filename!)"
+        let s3Prefix = "\(awsInfo.spadesEnvironment.rawValue)/UPLOADS/\(studyId!)"
+        let fileKey = "\(s3Prefix)/\(filename!)"
         let fileGuid = NSUUID().UUIDString
         SPADESAWSManager.PushFileToS3(fileFullPath, targetBucket: awsInfo.s3BucketName, fileKey: fileKey, removeOriginal: false) {
             (succeeded, bytesTransferred) in

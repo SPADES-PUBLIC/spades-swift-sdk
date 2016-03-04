@@ -16,11 +16,11 @@ class SPADESAWSInfo {
     var secretAccessKey:String = ""
     var s3BucketName:String = ""
     var sqsQueueName:String = ""
-    var spadesEnvironment:String = ""
+    var spadesEnvironment:SPADESEnvironmentType = .UNKNOWN
     var regionType:AWSRegionType = .Unknown
     
     func isValid() -> Bool {
-        return !accessKeyId.isEmpty && !secretAccessKey.isEmpty && !s3BucketName.isEmpty && !sqsQueueName.isEmpty && !spadesEnvironment.isEmpty && regionType != .Unknown
+        return !accessKeyId.isEmpty && !secretAccessKey.isEmpty && !s3BucketName.isEmpty && !sqsQueueName.isEmpty && spadesEnvironment != .UNKNOWN && regionType != .Unknown
     }
 }
 

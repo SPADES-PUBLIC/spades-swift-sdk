@@ -75,7 +75,7 @@ class ViewController: UIViewController {
         self.awsInfo = SPADESAWSInfo()
         self.awsInfo.accessKeyId = "" // FILL IN!
         self.awsInfo.secretAccessKey = "" // FILL IN!
-        self.awsInfo.spadesEnvironment = "DEVELOPMENT" // Or "PRODUCTION"
+        self.awsInfo.spadesEnvironment = SPADESEnvironmentType.DEVELOPMENT // or .PRODUCTION
         self.awsInfo.s3BucketName = "" // FILL IN!
         self.awsInfo.sqsQueueName = "" // FILL IN!
         self.awsInfo.regionType = AWSRegionType.USEast1 // FILL IN!
