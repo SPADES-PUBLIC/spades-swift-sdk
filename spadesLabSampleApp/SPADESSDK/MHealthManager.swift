@@ -10,10 +10,10 @@ import Foundation
 
 // Supported mHealth sensors for iOS
 enum MHealthSensor:String {
-    case STEPS = "STEPS"
+    case STEPS = "Steps"
     case PROMIS = "PROMIS"
-    case ANNOTATION = "ANNOTATION"
-    case GPS = "GPS"
+    case ANNOTATION = "SelfAnnotation"
+    case GPS = "Location"
 }
 
 class MHealthUtils {

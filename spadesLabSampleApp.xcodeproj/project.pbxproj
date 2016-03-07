@@ -16,7 +16,7 @@
 		586D8F1A1C80C2B4009B25E5 /* SPADESManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D8F191C80C2B4009B25E5 /* SPADESManager.swift */; };
 		586D8F1C1C80E3C1009B25E5 /* MHealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D8F1B1C80E3C1009B25E5 /* MHealthManager.swift */; };
 		58AF10301C84C5F30042C180 /* SPADESAWSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF102F1C84C5F30042C180 /* SPADESAWSManager.swift */; };
-		58AF10371C84C7870042C180 /* iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz in Resources */ = {isa = PBXBuildFile; fileRef = 58AF10361C84C7870042C180 /* iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */; };
+		58AF10371C84C7870042C180 /* iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz in Resources */ = {isa = PBXBuildFile; fileRef = 58AF10361C84C7870042C180 /* iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */; };
 		9BB517CA77E2A6B47F1D2228 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F7C3DBD4380432EC74E0B1 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		586D8F191C80C2B4009B25E5 /* SPADESManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPADESManager.swift; path = SPADESSDK/SPADESManager.swift; sourceTree = "<group>"; };
 		586D8F1B1C80E3C1009B25E5 /* MHealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHealthManager.swift; path = SPADESSDK/MHealthManager.swift; sourceTree = "<group>"; };
 		58AF102F1C84C5F30042C180 /* SPADESAWSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPADESAWSManager.swift; path = SPADESSDK/SPADESAWSManager.swift; sourceTree = "<group>"; };
-		58AF10361C84C7870042C180 /* iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = "iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz"; path = "SampleFiles/iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz"; sourceTree = "<group>"; };
+		58AF10361C84C7870042C180 /* iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = "iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz"; path = "SampleFiles/iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz"; sourceTree = "<group>"; };
 		58AF10391C84C7DC0042C180 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		58AF103C1C84DCC20042C180 /* spadesLabSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "spadesLabSampleApp-Bridging-Header.h"; path = "SupportingFiles/spadesLabSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		B334FDCF13EB5006302D4FE4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		58AF10351C84C7780042C180 /* SampleFiles */ = {
 			isa = PBXGroup;
 			children = (
-				58AF10361C84C7870042C180 /* iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */,
+				58AF10361C84C7870042C180 /* iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz */,
 			);
 			name = SampleFiles;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AF10371C84C7870042C180 /* iPhone-STEPS-iOSx9x1.1112223333-STEPS.2016-01-22-19-22-34-310-M0500.sensor.csv.gz in Resources */,
+				58AF10371C84C7870042C180 /* iPhone-Steps-iOSx9x1.1112223333-Steps.2016-01-22-19-22-34-310-M0500.sensor.csv.gz in Resources */,
 				586D8F111C80C010009B25E5 /* LaunchScreen.storyboard in Resources */,
 				586D8F0E1C80C010009B25E5 /* Assets.xcassets in Resources */,
 				586D8F0C1C80C00F009B25E5 /* Main.storyboard in Resources */,
